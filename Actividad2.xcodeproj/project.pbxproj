@@ -14,6 +14,11 @@
 		84BA93B521E4F5450009BC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA93B321E4F5450009BC2D /* LaunchScreen.storyboard */; };
 		84BA93C021E4F5450009BC2D /* Actividad2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93BF21E4F5450009BC2D /* Actividad2Tests.swift */; };
 		84BA93CB21E4F5450009BC2D /* Actividad2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93CA21E4F5450009BC2D /* Actividad2UITests.swift */; };
+		84BA93DA21E506830009BC2D /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93D921E506830009BC2D /* Agenda.swift */; };
+		84BA93DC21E506960009BC2D /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93DB21E506960009BC2D /* Contacto.swift */; };
+		84BA93DE21E506A70009BC2D /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93DD21E506A70009BC2D /* Persona.swift */; };
+		84BA93E021E506E80009BC2D /* MiAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93DF21E506E80009BC2D /* MiAgenda.swift */; };
+		84BA93E221E5079E0009BC2D /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93E121E5079E0009BC2D /* Funciones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		84BA93C621E4F5450009BC2D /* Actividad2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA93CA21E4F5450009BC2D /* Actividad2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad2UITests.swift; sourceTree = "<group>"; };
 		84BA93CC21E4F5450009BC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA93D921E506830009BC2D /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		84BA93DB21E506960009BC2D /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		84BA93DD21E506A70009BC2D /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		84BA93DF21E506E80009BC2D /* MiAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiAgenda.swift; sourceTree = "<group>"; };
+		84BA93E121E5079E0009BC2D /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		84BA93A921E4F5440009BC2D /* Actividad2 */ = {
 			isa = PBXGroup;
 			children = (
+				84BA93D821E506590009BC2D /* Clases */,
 				84BA93AA21E4F5440009BC2D /* AppDelegate.swift */,
 				84BA93AC21E4F5440009BC2D /* ViewController.swift */,
 				84BA93AE21E4F5440009BC2D /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				84BA93CC21E4F5450009BC2D /* Info.plist */,
 			);
 			path = Actividad2UITests;
+			sourceTree = "<group>";
+		};
+		84BA93D821E506590009BC2D /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				84BA93D921E506830009BC2D /* Agenda.swift */,
+				84BA93DB21E506960009BC2D /* Contacto.swift */,
+				84BA93DD21E506A70009BC2D /* Persona.swift */,
+				84BA93DF21E506E80009BC2D /* MiAgenda.swift */,
+				84BA93E121E5079E0009BC2D /* Funciones.swift */,
+			);
+			path = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA93E221E5079E0009BC2D /* Funciones.swift in Sources */,
+				84BA93DC21E506960009BC2D /* Contacto.swift in Sources */,
+				84BA93E021E506E80009BC2D /* MiAgenda.swift in Sources */,
 				84BA93AD21E4F5440009BC2D /* ViewController.swift in Sources */,
+				84BA93DA21E506830009BC2D /* Agenda.swift in Sources */,
+				84BA93DE21E506A70009BC2D /* Persona.swift in Sources */,
 				84BA93AB21E4F5440009BC2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
