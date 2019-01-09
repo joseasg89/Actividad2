@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnFelicitar: UIButton!
     @IBOutlet weak var txvInfo: UITextView!
     @IBOutlet weak var tblContactos: UITableView!
+    @IBAction func btnFelicitarClick(_ sender: Any) {
+        let img = UIImage(named: "birtday.jpg")
+        let txt = "Felicidades"
+        let items = [img, txt] as [Any]
+        let svc = UIActivityViewController(activityItems: items, applicationActivities: nil)
+        svc.excludedActivityTypes = [UIActivity.ActivityType.airDrop]
+        present(svc, animated: true, completion: nil)
+    }
     var miagenda = MiAgenda()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +48,8 @@ extension ViewController : UITableViewDelegate{
         
         if miagenda.agenda.AgContactos[indexPath.row].CumpleCerca == true{
             btnFelicitar.isHidden = false
+        }else{
+            btnFelicitar.isHidden = true
         }
     }
 }

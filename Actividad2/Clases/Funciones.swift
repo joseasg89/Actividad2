@@ -22,16 +22,21 @@ class Funciones{
         let datestringformatter = DateFormatter()
         datestringformatter.dateFormat = "dd/MM/yyyy"
         let datefromstring = datestringformatter.date(from: Fecha)
-        var edad = Calendar.current.dateComponents([.year, .month, .day], from: datefromstring!, to:Date())
+        var dateEdad = Calendar.current.dateComponents([.year, .month, .day], from: datefromstring!, to:Date())
+        var dateNow = Calendar.current.dateComponents([.year, .month, .day], from: Date())
         
         var dateComponent = DateComponents()
-        dateComponent.year = edad.year
-        dateComponent.month = edad.month
-        dateComponent.day = edad.day
+        
+        if dateEdad.year == dateNow.year{
+            dateComponent.year = dateEdad.year
+        }else{
+            dateComponent.year = (dateEdad.year! + 1)
+        }
+        
         let newDate = Calendar.current.date(byAdding: dateComponent, to: datefromstring!)
         var intervalo  = Calendar.current.dateComponents([.year, .month, .day], from: Date(), to: newDate!)
         
-        if intervalo.month == 0 && (intervalo.day! <= 4 && intervalo.day! >= 0){
+        if intervalo.year == 0 && intervalo.month == 0 && (intervalo.day! <= 4 && intervalo.day! >= 0){
             return true
         }else{
             return false

@@ -69,6 +69,9 @@
                                 <state key="normal" title="Felicitar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnFelicitarClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yxm-C5-wIc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.71472493924464331" green="1" blue="0.75132653582860609" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -19,6 +19,7 @@
 		84BA93DE21E506A70009BC2D /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93DD21E506A70009BC2D /* Persona.swift */; };
 		84BA93E021E506E80009BC2D /* MiAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93DF21E506E80009BC2D /* MiAgenda.swift */; };
 		84BA93E221E5079E0009BC2D /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA93E121E5079E0009BC2D /* Funciones.swift */; };
+		84BA93E621E544310009BC2D /* birtday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BA93E521E544310009BC2D /* birtday.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		84BA93DD21E506A70009BC2D /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		84BA93DF21E506E80009BC2D /* MiAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiAgenda.swift; sourceTree = "<group>"; };
 		84BA93E121E5079E0009BC2D /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
+		84BA93E521E544310009BC2D /* birtday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = birtday.jpg; path = ../../birtday.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				84BA93AC21E4F5440009BC2D /* ViewController.swift */,
 				84BA93AE21E4F5440009BC2D /* Main.storyboard */,
 				84BA93B121E4F5450009BC2D /* Assets.xcassets */,
+				84BA93E521E544310009BC2D /* birtday.jpg */,
 				84BA93B321E4F5450009BC2D /* LaunchScreen.storyboard */,
 				84BA93B621E4F5450009BC2D /* Info.plist */,
 			);
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BA93B521E4F5450009BC2D /* LaunchScreen.storyboard in Resources */,
+				84BA93E621E544310009BC2D /* birtday.jpg in Resources */,
 				84BA93B221E4F5450009BC2D /* Assets.xcassets in Resources */,
 				84BA93B021E4F5440009BC2D /* Main.storyboard in Resources */,
 			);
